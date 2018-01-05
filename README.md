@@ -3,9 +3,9 @@
 ## 技术栈
 Vue.js 2.x + Element UI + webpack 3.x + vue-router + axios + ES6
 ## 项目运行
-> git clone git@github.com:melodyyyyy/vue2.X-webpack3.X-manage.git
-> npm install
-> npm run dev
+1.		git clone git@github.com:melodyyyyy/vue2.X-webpack3.X-manage.git
+2.		npm install
+3.		npm run dev
 
 # serve with hot reload at localhost:8080
 npm run dev

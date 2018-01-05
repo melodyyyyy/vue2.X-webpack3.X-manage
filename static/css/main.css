@@ -1,0 +1,27 @@
+.content {
+    background: none repeat scroll 0 0 #fff;
+    position: absolute;
+    left: 250px;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    width: auto;
+    padding: 40px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.mgr10{
+    margin-right:10px;
+}
+/*Readme*/
+.article-content .el-checkbox__input.is-disabled+.el-checkbox__label{
+    color: #333;
+    cursor: pointer;
+}
+.crumbs{
+  color:#97a8be
+}
+.pagination {
+    margin: 20px 0;
+    text-align: right;
+}

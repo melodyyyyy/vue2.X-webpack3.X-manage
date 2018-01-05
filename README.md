@@ -18,6 +18,113 @@ Vue.js 2.x + Element UI + webpack 3.x + vue-router + axios + ES6 + font-awesome
 
 ## 开发环境
 centos7+chrome 60+nodejs 8.4.0
+## 项目结构
+	.
+	├── build
+	│   ├── build.js
+	│   ├── check-versions.js
+	│   ├── logo.png
+	│   ├── utils.js
+	│   ├── vue-loader.conf.js
+	│   ├── webpack.base.conf.js
+	│   ├── webpack.dev.conf.js
+	│   └── webpack.prod.conf.js
+	├── config
+	│   ├── dev.env.js
+	│   ├── index.js
+	│   ├── prod.env.js
+	│   └── test.env.js
+	├── index.html
+	├── LICENSE
+	├── package.json
+	├── package-lock.json
+	├── README.md
+	├── src
+	│   ├── App.vue
+	│   ├── assets
+	│   │   └── logo.png
+	│   ├── components
+	│   │   ├── baseform.vue
+	│   │   ├── basetable.vue
+	│   │   ├── common
+	│   │   │   ├── mfooter.vue
+	│   │   │   ├── mhead.vue
+	│   │   │   └── sideBar.vue
+	│   │   ├── echarts.vue
+	│   │   ├── home.vue
+	│   │   ├── login.vue
+	│   │   ├── map.vue
+	│   │   ├── readme.vue
+	│   │   ├── upload.vue
+	│   │   ├── vueeditor.vue
+	│   │   └── vuetable.vue
+	│   ├── main.js
+	│   └── router
+	│       └── index.js
+	├── static
+	│   ├── css
+	│   │   ├── font-awesome-4.7.0
+	│   │   │   ├── css
+	│   │   │   │   ├── font-awesome.css
+	│   │   │   │   └── font-awesome.min.css
+	│   │   │   ├── fonts
+	│   │   │   │   ├── FontAwesome.otf
+	│   │   │   │   ├── fontawesome-webfont.eot
+	│   │   │   │   ├── fontawesome-webfont.svg
+	│   │   │   │   ├── fontawesome-webfont.ttf
+	│   │   │   │   ├── fontawesome-webfont.woff
+	│   │   │   │   └── fontawesome-webfont.woff2
+	│   │   │   ├── HELP-US-OUT.txt
+	│   │   │   ├── less
+	│   │   │   │   ├── animated.less
+	│   │   │   │   ├── bordered-pulled.less
+	│   │   │   │   ├── core.less
+	│   │   │   │   ├── fixed-width.less
+	│   │   │   │   ├── font-awesome.less
+	│   │   │   │   ├── icons.less
+	│   │   │   │   ├── larger.less
+	│   │   │   │   ├── list.less
+	│   │   │   │   ├── mixins.less
+	│   │   │   │   ├── path.less
+	│   │   │   │   ├── rotated-flipped.less
+	│   │   │   │   ├── screen-reader.less
+	│   │   │   │   ├── stacked.less
+	│   │   │   │   └── variables.less
+	│   │   │   └── scss
+	│   │   │       ├── _animated.scss
+	│   │   │       ├── _bordered-pulled.scss
+	│   │   │       ├── _core.scss
+	│   │   │       ├── _fixed-width.scss
+	│   │   │       ├── font-awesome.scss
+	│   │   │       ├── _icons.scss
+	│   │   │       ├── _larger.scss
+	│   │   │       ├── _list.scss
+	│   │   │       ├── _mixins.scss
+	│   │   │       ├── _path.scss
+	│   │   │       ├── _rotated-flipped.scss
+	│   │   │       ├── _screen-reader.scss
+	│   │   │       ├── _stacked.scss
+	│   │   │       └── _variables.scss
+	│   │   └── main.css
+	│   ├── image
+	│   │   ├── background.jpg
+	│   │   └── elephant.jpg
+	│   ├── js
+	│   └── table.json
+	└── test
+	    ├── e2e
+	    │   ├── custom-assertions
+	    │   │   └── elementCount.js
+	    │   ├── nightwatch.conf.js
+	    │   ├── runner.js
+	    │   └── specs
+	    │       └── test.js
+	    └── unit
+		├── jest.conf.js
+		├── setup.js
+		└── specs
+		    └── HelloWorld.spec.js
+
 ## 遇到的问题
 开发过程中热加载失效了，手动刷新也不行，只能重新启动才能看到修改的效果，解决方法如下：
 
